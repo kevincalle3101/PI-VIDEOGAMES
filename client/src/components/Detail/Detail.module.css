@@ -1,0 +1,99 @@
+.container{
+    background: url('backgroundDetail.jpg');
+    background: url('backgroundDetail.jpg');
+    background-size: cover;
+    min-height: 95.5vh;
+    min-width: 204vh;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principalContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dataContainer{
+    position: relative;
+    right: -5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 899px;
+    top:-1rem;
+}
+.textContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textDescription{
+    position: absolute;
+    color: #A173D4
+}
+.textDescription:hover{
+    color: #F2E5FF;
+}
+.text{
+    position: relative;
+    top:2rem;
+    transition: all 0.25s;
+}
+.text:hover{
+    transform: translateY(-0.25rem);
+}
+.dateDescription{
+    position: absolute;
+}
+.date{
+    position: relative;
+    top:1.5rem;
+    transition: all 0.25s;
+}
+.date:hover{
+    transform: translateY(-0.25rem);
+}
+.divDescription{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0px;
+}
+.descriptionDescription{
+    position: absolute;
+    top: 0px;
+    color: #A173D4 
+}
+.descriptionDescription:hover{
+    color: #F2E5FF;
+}
+.description{
+    position: relative;
+    top:2rem;
+    transition: all 0.25s;
+}
+.description:hover{
+    transform: translateY(-0.25rem);
+}
+.loading{
+    font-size: 3rem;
+    color: #A173D4;
+}
+.image{
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.image:hover{
+    transform: translateY(-1rem);
+    box-shadow: 0 6px 10px rgba(161, 115, 212, 0.3), 0 -6px 10px rgba(161, 115, 212, 0.3); 
+}

@@ -1,0 +1,39 @@
+.principalContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200vh;
+    min-height: 100vh;
+}
+
+.containerCards{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top:10rem;
+}
+
+.containerSelect{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top:10rem;
+    left:9.5rem;
+}
+.select{
+    background-color: #1a1a1a;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    margin:0.5rem;
+    border:1px solid #A173D4;
+    padding:10px;
+    outline: none;
+}
+.select:hover{
+    background-color: #1B0126;
+    border: 1px solid #AB04D9;
+    color: #F2E5FF;
+    outline: none;
+}
+

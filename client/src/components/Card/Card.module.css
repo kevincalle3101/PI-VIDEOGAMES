@@ -1,0 +1,47 @@
+.containerCard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 5rem;
+    margin:1.5rem;
+    background-color: #AB04D9;
+    border-radius: 10px;
+    transition: all 0.25s;
+}
+.containerCard:hover{
+    transform: translateY(-1rem);
+    box-shadow: 0 6px 10px rgba(161, 115, 212, 0.3), 0 -6px 10px rgba(161, 115, 212, 0.3); 
+}
+
+.image{
+    border-radius: 10px;
+    border-bottom-left-radius: 0px; 
+    border-bottom-right-radius: 0px;
+}
+
+.divDetail{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    text-align: center;
+    color: #ffff;
+    bottom: 0.5rem;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 5px;
+    border: #A173D4 1px solid;
+}
+.divDetail:hover{
+    background-color: #0C001A;
+}
+.detail{
+    font-size: 20px;
+    color: #ffff;
+}
+.containerDescription{
+    position: relative;
+}
