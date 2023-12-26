@@ -8,10 +8,15 @@
     display: flex;
     justify-content: center;
     top: 0rem;
+    color: white;
 }
 
 .buttom{
     outline: none;
     margin-left: 1.5rem;
     border:#A173D4 1px solid;
+    color: white;
+}
+.Link{
+    color: white;
 }

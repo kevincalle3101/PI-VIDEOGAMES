@@ -40,6 +40,10 @@ export const Home = () => {
         <div>
             <div className={styles.principalContainer} > 
                 <SearchBar />
+                {/* <Paginated
+                    numberOfVideogames={allVideogames.length} //i only pass the number of the all videogames
+                    getByIndexs={getByIndexs}
+                /> */}
                 <div className={styles.containerCards} >
                     {
                         paginatedVideogames ? paginatedVideogames.map(({ id, name, image, genres, Genres }) => {
@@ -61,7 +65,7 @@ export const Home = () => {
                 </div>
                 <div className={styles.containerSelect} >
                     <select onChange={filterVideogamesByGenre} className={styles.select}>
-                        <option value="allGenres">All</option>
+                        <option value="allGenres">Genres</option>
                         <option value="Action">Action</option>
                         <option value="Adventure">Adventure</option>
                         <option value="RPG">RPG</option>
@@ -79,17 +83,17 @@ export const Home = () => {
                         <option value="Strategy">Strategy</option>
                     </select>
                     <select onChange={filterVideogamesCreated} className={styles.select}>
-                        <option value="allVideogames">All</option>
+                        <option value="allVideogames">Created or</option>
                         <option value="created">Created</option>
                         <option value="existing">Existing</option>
                     </select>
                     <select onChange={orderVideogamesAZ} className={styles.select}>
-                        <option value="default">Default</option>
+                        <option value="default">Order by</option>
                         <option value="A">A-Z</option>
                         <option value="Z">Z-A</option>
                     </select>
                     <select onChange={orderVideogamesRating} className={styles.select}>
-                        <option value="allRatings">Default</option>
+                        <option value="allRatings">Rating</option>
                         <option value="minor">Minor Rating</option>
                         <option value="major">Major Rating</option>
                     </select>

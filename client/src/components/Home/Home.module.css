@@ -29,6 +29,7 @@
     border:1px solid #A173D4;
     padding:10px;
     outline: none;
+    width: 100%;
 }
 .select:hover{
     background-color: #1B0126;

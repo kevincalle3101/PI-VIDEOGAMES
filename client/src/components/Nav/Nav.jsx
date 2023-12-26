@@ -13,14 +13,14 @@ export const Nav = () => {
         <div className={style.principalContainer} >
             <nav className={style.navbarContainer} >
                 <button onClick={resetTheHome} className={style.buttom} >
-                    <Link to="/home">Home</Link>
+                    <Link to="/home" className={style.Link}>Home</Link>
                     {/* i execute the function when an event happens*/}
                 </button >
                 <button className={style.buttom}>
-                    <Link to="/create" >Create Videogame</Link>
+                    <Link to="/create"  className={style.Link}>Create Videogame</Link>
                 </button>
                 <button className={style.buttom}>
-                    <Link to="/" >Exit</Link>
+                    <Link to="/"  className={style.Link}>Exit</Link>
                 </button>
             </nav>
         </div>
